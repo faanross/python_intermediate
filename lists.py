@@ -1,6 +1,6 @@
 # just messing around with lists as a refresher for Python intermediate course by Patrick Loeber
 
-my_list = ["napoleon", "kip", "pedro", 69, False, 12.420]
+my_list = ["napoleon", "kip", "pedro"]
 print(my_list)
 
 for i in my_list:
@@ -38,3 +38,26 @@ print(my_list)
 removeme = my_list.pop()
 print(removeme)
 print(my_list)
+
+removeme2 = my_list.remove("liger")
+print(my_list)
+
+my_list3 = []
+
+for i in my_list:
+    my_list3.append(i)
+
+my_list.sort()
+
+print(my_list)
+
+my_list.reverse()
+
+print(my_list)
+print(my_list3)
+
+new_list = ["tater tots"] * 3
+print(new_list)
+
+combined_list = new_list + my_list
+print(combined_list)
