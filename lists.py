@@ -61,3 +61,6 @@ print(new_list)
 
 combined_list = new_list + my_list
 print(combined_list)
+
+sliced_list = combined_list[3:5]
+print(sliced_list)
