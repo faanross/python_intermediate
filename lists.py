@@ -7,3 +7,5 @@ for i in my_list:
 my_list2 = []
 
 print(my_list2)
+
+print(my_list[2])
