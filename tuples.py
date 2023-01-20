@@ -27,3 +27,29 @@ print(first_tuple[1])
 
 print(first_tuple[0][2])
 print(first_tuple[1][0])
+
+# this works because we are changing LIST. If we tried to change first_tuple[0], it would not work: MUTABILITY
+first_tuple[0][0] = "Pedro"
+print(first_tuple)
+
+first_tuple = (["Kip", 32, "Cage Fighter"], ["Rico", 44, "Pro Athlete"])
+
+# nested for loop to print all the values
+for i in first_tuple:
+    for j in i:
+        print(j)
+
+# check to see if values are present
+
+query1 = "rico"
+query2 = "lyle"
+
+if query1 in first_tuple[0] or first_tuple[1]:
+    print(query1,"is in the tuple.")
+else:
+    print(query1,"is not in the tuple.")
+
+if query2 in first_tuple[0] or first_tuple[1]:
+    print(query2,"is in the tuple.")
+else:
+    print(query2,"is not in the tuple.")
