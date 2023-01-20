@@ -7,3 +7,9 @@
 
 first_tuple = ("Kip", 32, "Cage Fighter")
 print(first_tuple)
+
+first_tuple = ("Kip")
+print(type(first_tuple))
+
+first_tuple = ("Kip",)
+print(type(first_tuple))
