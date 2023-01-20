@@ -62,5 +62,18 @@ print(new_list)
 combined_list = new_list + my_list
 print(combined_list)
 
-sliced_list = combined_list[3:5]
+sliced_list = combined_list[2:5]
 print(sliced_list)
+
+sliced_list2 = combined_list[:3]
+print(sliced_list2)
+
+sliced_list3 = combined_list[4:]
+print(sliced_list3)
+
+number_list = []
+for i in range(9):
+    number_list.append(i)
+
+square_list = [i*i for i in number_list]
+print(square_list)
