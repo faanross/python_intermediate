@@ -44,12 +44,12 @@ for i in first_tuple:
 query1 = "rico"
 query2 = "lyle"
 
-if query1 in first_tuple[0] or first_tuple[1]:
+if query1 in (first_tuple[0] or first_tuple[1]):
     print(query1,"is in the tuple.")
 else:
     print(query1,"is not in the tuple.")
 
-if query2 in first_tuple[0] or first_tuple[1]:
+if query2 in (first_tuple[0] or first_tuple[1]):
     print(query2,"is in the tuple.")
 else:
     print(query2,"is not in the tuple.")
