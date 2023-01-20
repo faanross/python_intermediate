@@ -53,3 +53,9 @@ if query2 in (first_tuple[0] or first_tuple[1]):
     print(query2,"is in the tuple.")
 else:
     print(query2,"is not in the tuple.")
+
+chicken = ('t', 'a', 'l', 'o', 'n', 's')
+print(len(chicken))
+print(chicken.count('t'))
+print(chicken.count('x'))
+print(chicken.index('o'))
