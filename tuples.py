@@ -56,6 +56,16 @@ else:
 
 chicken = ('t', 'a', 'l', 'o', 'n', 's')
 print(len(chicken))
+
 print(chicken.count('t'))
 print(chicken.count('x'))
+
 print(chicken.index('o'))
+
+# convert a tuple to a list
+chicken_list = list(chicken)
+print(type(chicken_list))
+
+# convert a list to a tuple
+new_chicken = tuple(chicken_list)
+print(type(new_chicken))
