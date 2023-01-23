@@ -15,3 +15,10 @@ print(printme)
 first_dict["power animal"] = "liger"
 print(first_dict)
 print(first_dict["power animal"])
+
+# a few ways to delete items
+del first_dict["age"]
+print(first_dict)
+
+first_dict.pop("school")
+print(first_dict)
