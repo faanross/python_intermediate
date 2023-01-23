@@ -10,3 +10,8 @@ print(second_dict)
 # accessing value: name[key]
 printme = second_dict["food"]
 print(printme)
+
+# append a pair
+first_dict["power animal"] = "liger"
+print(first_dict)
+print(first_dict["power animal"])
