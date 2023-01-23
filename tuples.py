@@ -69,3 +69,33 @@ print(type(chicken_list))
 # convert a list to a tuple
 new_chicken = tuple(chicken_list)
 print(type(new_chicken))
+
+# slicing
+print(chicken)
+print(chicken[1:4])
+print(chicken[:3])
+print(chicken[2:])
+
+# this runs through all of them only prints every 2nd item
+print(chicken[::2])
+
+# a trick to reverse
+print(chicken[::-1])
+
+# we can assign tuple values to individual variables
+# note amount of vars and elements in tuple have to match
+kip = ("Lawfawnduh", "Time Travel", "Prime Rib")
+girlfriend, interest, food = kip
+
+print(girlfriend)
+print(interest)
+print(food)
+
+# in case we want to assign multiple values to a var, use *
+
+cool_numbers = (666, 13, 69, 420, 26, 101010)
+num1, *num2, num3 = cool_numbers
+
+print(num1)
+print(num3)
+print(num2)
