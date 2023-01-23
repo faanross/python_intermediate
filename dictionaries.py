@@ -6,3 +6,7 @@ print(first_dict)
 #using dict function to caste dictionary
 second_dict = dict(name="Rico", school="Preston", age=46, food="minute steak")
 print(second_dict)
+
+# accessing value: name[key]
+printme = second_dict["food"]
+print(printme)
