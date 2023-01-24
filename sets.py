@@ -38,3 +38,9 @@ for letter in string.ascii_lowercase:
     newset1.remove(letter)
 
 print(newset1)
+
+# clear() will empty the set, pop() removes last one which is arbitrary
+
+# iterate over the list:
+for i in newset1:
+    print(str(i)+" has the ASCII code "+str(ord(i)))
