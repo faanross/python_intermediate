@@ -44,3 +44,9 @@ print(newset1)
 # iterate over the list:
 for i in newset1:
     print(str(i)+" has the ASCII code "+str(ord(i)))
+
+# union combines
+newset2 = set("chimmychangas")
+newset3 = set("tatertots")
+comb_set = newset3.union(newset2)
+print(comb_set)
