@@ -35,6 +35,6 @@ import string
 for letter in string.ascii_lowercase:
     if letter == 'm':
         break
-    newset1.pop(letter)
-    
+    newset1.remove(letter)
+
 print(newset1)
