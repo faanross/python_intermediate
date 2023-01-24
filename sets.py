@@ -80,3 +80,14 @@ print(newset2.issubset(newset3))
 newset4 = set("rex")
 newset5 = set("rexkwondo")
 print(newset4.issubset(newset5))
+
+print(newset3.issuperset(newset2))
+print(newset5.issuperset(newset4))
+
+# disjoint returns true if there are NO characters in common
+newset6 = set("rex")
+newset7 = set("napoleon") # 6 and 7 share e
+newset8 = set("kip") # 6 and 8 have nothing in common
+
+print(newset6.isdisjoint(newset7))
+print(newset6.isdisjoint(newset8))
