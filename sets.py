@@ -12,6 +12,17 @@ print(myset)
 newset1 = set("rexkwondo")
 print(newset1)
 # output: {'d', 'o', 'n', 'w', 'k', 'r', 'e', 'x'}
+# how many entries?
+print(len(newset1))
 
+# check to see if something is present or not
 if 'x' in newset1: print("Present")
 else: print("Not present")
+
+if 'p' in newset1: print("Present")
+else: print("Not present")
+
+# add elements
+newset1.add(set("scottishdruids"))
+newset1.add(set("tetherball"))
+print(newset1)
