@@ -56,3 +56,9 @@ newset2 = set("chimmychangas")
 newset3 = set("tatertots")
 int_set = newset3.intersection(newset2)
 print(int_set)
+
+# difference of two sets - will return all elements from 2 that are not in 3 
+newset2 = set("cagefighter")
+newset3 = set("starla")
+diff = newset2.difference(newset3)
+print(diff)
