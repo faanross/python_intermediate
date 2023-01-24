@@ -62,3 +62,15 @@ newset2 = set("cagefighter")
 newset3 = set("starla")
 diff = newset2.difference(newset3)
 print(diff)
+
+# everything in 3 that are not in 2
+diff2 = newset3.difference(newset2)
+print(diff2)
+
+# everything that is present in both will not be shown
+diff3 = newset3.symmetric_difference(newset2)
+print(diff3)
+
+# update will add everything that is not already present
+update_set = newset2.update(newset3)
+print(update_set)
