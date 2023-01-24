@@ -23,7 +23,18 @@ if 'p' in newset1: print("Present")
 else: print("Not present")
 
 # add elements
-addset = set("scottishdruids")
-newset1.add(addset)
-newset1.add("tetherball")
+import string
+for letter in string.ascii_lowercase:
+    newset1.add(letter)
+ 
+print(newset1)
+
+# remove elements
+import string
+
+for letter in string.ascii_lowercase:
+    if letter == 'm':
+        break
+    newset1.pop(letter)
+    
 print(newset1)
