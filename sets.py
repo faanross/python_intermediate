@@ -71,6 +71,12 @@ print(diff2)
 diff3 = newset3.symmetric_difference(newset2)
 print(diff3)
 
-# update will add everything that is not already present
-update_set = newset2.update(newset3)
-print(update_set)
+# update will add everything that is not already present - no duplicattion
+newset2.update(newset3)
+print(newset2)
+
+# subsets and supersetps
+print(newset2.issubset(newset3))
+newset4 = set("rex")
+newset5 = set("rexkwondo")
+print(newset4.issubset(newset5))
