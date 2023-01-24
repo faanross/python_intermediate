@@ -23,6 +23,7 @@ if 'p' in newset1: print("Present")
 else: print("Not present")
 
 # add elements
-newset1.add(set("scottishdruids"))
-newset1.add(set("tetherball"))
+addset = set("scottishdruids")
+newset1.add(addset)
+newset1.add("tetherball")
 print(newset1)
