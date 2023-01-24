@@ -52,5 +52,7 @@ comb_set = newset3.union(newset2)
 print(comb_set)
 
 # intersection only keeps those that are common across both sets
-int_set = newset3.union(newset2)
+newset2 = set("chimmychangas")
+newset3 = set("tatertots")
+int_set = newset3.intersection(newset2)
 print(int_set)
