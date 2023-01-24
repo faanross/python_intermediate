@@ -91,3 +91,7 @@ newset8 = set("kip") # 6 and 8 have nothing in common
 
 print(newset6.isdisjoint(newset7))
 print(newset6.isdisjoint(newset8))
+
+# a FROZEN SET is a set that is IMMUTABLE
+freezeme = frozenset([1, 2, 3, 6, 9])
+print(freezeme)
