@@ -17,3 +17,9 @@ for i in range(len(first_string)):
     #print(j)
     print(first_string[j], end="")
 print()
+
+name = "Rico"
+food = "steak"
+occupation = "pro footballer"
+sentence = name+" is a "+occupation+" who loves "+food
+print(sentence)
