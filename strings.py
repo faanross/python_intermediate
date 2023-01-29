@@ -23,3 +23,8 @@ food = "steak"
 occupation = "pro footballer"
 sentence = name+" is a "+occupation+" who loves "+food
 print(sentence)
+
+if 'Rico' in sentence:
+    print("YES")
+else:
+    print("NO")
