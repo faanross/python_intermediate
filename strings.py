@@ -11,3 +11,9 @@ print()
 
 substring = first_string[12:]
 print(substring)
+
+for i in range(len(first_string)):
+    j = len(first_string)-(i+1)
+    #print(j)
+    print(first_string[j], end="")
+print()
