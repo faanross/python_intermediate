@@ -28,3 +28,9 @@ if 'Rico' in sentence:
     print("YES")
 else:
     print("NO")
+
+lotsofspace = "                    numchuck skills           "
+print(lotsofspace)
+print(lotsofspace.strip())
+print(lotsofspace.strip().upper())
+print(lotsofspace.strip().capitalize())
