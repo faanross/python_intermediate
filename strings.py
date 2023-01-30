@@ -40,4 +40,8 @@ print(lotsofspace.strip().find('chuck'))
 print(lotsofspace.strip().count('s'))
 print(lotsofspace.strip().replace('numchuck', 'computer hacking'))
 #
-print("I see you're drinking 1%.")
+pickup = "I see you're drinking 1%."
+picksplit = pickup.split()
+
+print(picksplit)
+print(picksplit[3])
