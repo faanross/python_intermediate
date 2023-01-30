@@ -40,3 +40,4 @@ print(lotsofspace.strip().find('chuck'))
 print(lotsofspace.strip().count('s'))
 print(lotsofspace.strip().replace('numchuck', 'computer hacking'))
 #
+print("I see you're drinking 1%.")
