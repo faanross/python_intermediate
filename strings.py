@@ -36,3 +36,7 @@ print(lotsofspace.strip().upper())
 print(lotsofspace.strip().capitalize())
 print(lotsofspace.strip().endswith("skills"))
 print(lotsofspace.strip().endswith("dunes"))
+print(lotsofspace.strip().find('chuck'))
+print(lotsofspace.strip().count('s'))
+print(lotsofspace.strip().replace('numchuck', 'computer hacking'))
+#
