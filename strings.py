@@ -55,6 +55,6 @@ new_string = '--'.join(picksplit)
 print(new_string)
 
 # %, fomart(), f-Strings
-hair = "sandy"
+hair = "sandy blonde"
 hair1 = "her hair is %s" %hair
 print(hair1)
