@@ -41,7 +41,20 @@ print(lotsofspace.strip().count('s'))
 print(lotsofspace.strip().replace('numchuck', 'computer hacking'))
 #
 pickup = "I see you're drinking 1%."
+# default delimiter is space
 picksplit = pickup.split()
+# we can specify delimiter - here for ex on i
+picksplitb = pickup.split("i")
 
 print(picksplit)
+print(picksplitb)
 print(picksplit[3])
+
+# convert list back into string
+new_string = '--'.join(picksplit)
+print(new_string)
+
+# %, fomart(), f-Strings
+hair = "sandy"
+hair1 = "her hair is %s" %hair
+print(hair1)
