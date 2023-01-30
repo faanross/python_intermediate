@@ -54,7 +54,15 @@ print(picksplit[3])
 new_string = '--'.join(picksplit)
 print(new_string)
 
-# %, fomart(), f-Strings
+# %, format(), f-Strings
 hair = "sandy blonde"
-hair1 = "her hair is %s" %hair
+face = "pretty good looking"
+hair1 = "her hair is %s" %hair # for int use %d, for float %.2f - 2 digits after decimal
+hair2 = "her hair is {}, and her face is {}".format(hair, face)
+hair3 = f"her hair is {hair}, and her face is {face}"
+
+
+
 print(hair1)
+print(hair2)
+print(hair3)
