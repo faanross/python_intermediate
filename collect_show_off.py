@@ -13,4 +13,6 @@ print(my_counter)
 print(my_counter.keys())
 print(my_counter.values())
 print(my_counter.most_common(1))
+print(my_counter.most_common(1)[0][0])
+
 print(my_counter.most_common(2))
