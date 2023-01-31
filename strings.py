@@ -59,9 +59,7 @@ hair = "sandy blonde"
 face = "pretty good looking"
 hair1 = "her hair is %s" %hair # for int use %d, for float %.2f - 2 digits after decimal
 hair2 = "her hair is {}, and her face is {}".format(hair, face)
-hair3 = f"her hair is {hair}, and her face is {face}"
-
-
+hair3 = f"her hair is {hair}, and her face is {face*3}"
 
 print(hair1)
 print(hair2)
