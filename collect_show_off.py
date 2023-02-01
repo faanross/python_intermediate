@@ -9,6 +9,8 @@
 from collections import Counter
 from collections import namedtuple
 from collections import OrderedDict
+from collections import defaultdict
+
 
 a = "aabbbbbccccccccc"
 my_counter = Counter(a)
@@ -44,4 +46,4 @@ ordered_dict['e'] = 5
 
 print(ordered_dict) # we can see there the order is the same, with old Python it will be random each time
 
-
+# defaultdict
