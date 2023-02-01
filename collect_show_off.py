@@ -60,3 +60,8 @@ deck = deque()
 deck.append(420)
 deck.append(69)
 print(deck)
+
+deck.appendleft(666)
+print(deck)
+
+# thus regular append adds value to right, appendleft adds it to the right
