@@ -32,3 +32,14 @@ print(pt.x)
 print(pt.y)
 
 # OrderedDict is a dictionary but where the ordered is remembered 
+# Note however in Python 3.7 this is also the case for regular dicts, but for older ones you'll need to use this
+
+ordered_dict = OrderedDict()
+
+ordered_dict['a'] = 1 
+ordered_dict['b'] = 2 
+ordered_dict['c'] = 3 
+ordered_dict['d'] = 4 
+ordered_dict['e'] = 5
+
+print(ordered_dict)
