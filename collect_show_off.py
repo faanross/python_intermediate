@@ -27,3 +27,6 @@ Point = namedtuple('Point', 'x,y')
 # This creates a class called Point with the fields x and y
 pt = Point(1, -12)
 print(pt)
+print(pt.x)
+print(pt.y)
+
