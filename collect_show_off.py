@@ -42,4 +42,6 @@ ordered_dict['c'] = 3
 ordered_dict['d'] = 4 
 ordered_dict['e'] = 5
 
-print(ordered_dict)
+print(ordered_dict) # we can see there the order is the same, with old Python it will be random each time
+
+
