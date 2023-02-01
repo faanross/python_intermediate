@@ -9,7 +9,6 @@
 from collections import Counter
 from collections import namedtuple
 
-
 a = "aabbbbbccccccccc"
 my_counter = Counter(a)
 print(my_counter)
@@ -26,3 +25,5 @@ print(list(my_counter.elements()))
 
 Point = namedtuple('Point', 'x,y')
 # This creates a class called Point with the fields x and y
+pt = Point(1, -12)
+print(pt)
