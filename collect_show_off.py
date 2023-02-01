@@ -7,6 +7,9 @@
 
 # Counter is a container that stores elements as dictionary keys and their counts as dictionary values
 from collections import Counter
+from collections import namedtuple
+
+
 a = "aabbbbbccccccccc"
 my_counter = Counter(a)
 print(my_counter)
@@ -21,4 +24,5 @@ print(list(my_counter.elements()))
 # named tuple continue is an easy to create and lightweight object type similar to a struct
 # namedtuple - first argument is class name, second argument is another string that indicates all the fields we want seperated by a comma
 
-Point = namedtuple('Point', )
+Point = namedtuple('Point', 'x,y')
+# This creates a class called Point with the fields x and y
