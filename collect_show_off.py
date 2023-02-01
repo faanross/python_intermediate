@@ -8,6 +8,7 @@
 # Counter is a container that stores elements as dictionary keys and their counts as dictionary values
 from collections import Counter
 from collections import namedtuple
+from collections import OrderedDict
 
 a = "aabbbbbccccccccc"
 my_counter = Counter(a)
@@ -30,3 +31,4 @@ print(pt)
 print(pt.x)
 print(pt.y)
 
+# OrderedDict is a dictionary but where the ordered is remembered 
