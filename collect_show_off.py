@@ -46,4 +46,9 @@ ordered_dict['e'] = 5
 
 print(ordered_dict) # we can see there the order is the same, with old Python it will be random each time
 
-# defaultdict
+# defaultdict: first we give it a default type, then we can fill it
+# ensures only one type of data can be added to dict
+d = defaultdict(int)
+d['a'] = 1
+d['b'] = 3
+print(d)
