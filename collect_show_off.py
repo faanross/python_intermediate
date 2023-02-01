@@ -77,3 +77,10 @@ print(deck)
 
 deck.clear()
 print(deck)
+
+deck.extend([4, 5, 6, 7])
+print(deck)
+deck.rotate(1)
+print(deck)
+deck.rotate(2)
+print(deck)
