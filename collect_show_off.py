@@ -19,5 +19,6 @@ print(my_counter.most_common(2))
 print(list(my_counter.elements()))
 
 # named tuple continue is an easy to create and lightweight object type similar to a struct
-# namedtuple - first argument is class name 
-Point = namedtuple('')
+# namedtuple - first argument is class name, second argument is another string
+
+Point = namedtuple('Point', )
