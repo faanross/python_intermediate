@@ -10,7 +10,7 @@ from collections import Counter
 from collections import namedtuple
 from collections import OrderedDict
 from collections import defaultdict
-
+from collections import deque
 
 a = "aabbbbbccccccccc"
 my_counter = Counter(a)
