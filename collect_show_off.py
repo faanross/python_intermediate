@@ -65,3 +65,9 @@ deck.appendleft(666)
 print(deck)
 
 # thus regular append adds value to right, appendleft adds it to the right
+
+deck.pop()
+print(deck)
+
+deck.popleft()
+print(deck)
