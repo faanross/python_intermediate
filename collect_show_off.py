@@ -52,3 +52,11 @@ d = defaultdict(int)
 d['a'] = 1
 d['b'] = 3
 print(d)
+
+# deque is a double-ended queue used to add or remove elements from both ends
+
+deck = deque()
+
+deck.append(420)
+deck.append(69)
+print(deck)
