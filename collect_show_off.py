@@ -71,3 +71,9 @@ print(deck)
 
 deck.popleft()
 print(deck)
+
+deck.extend([4, 5, 6, 7])
+print(deck)
+
+deck.clear()
+print(deck)
