@@ -66,3 +66,11 @@ legrupb = groupby(xx,key=lambda x:x<4)
 
 for key, value in legrupb:
     print(key, list(value))
+
+from itertools import count, cycle, repeat
+
+# starts counting from 5 in increments of 2 until it reaches 13
+for i in count(5, 2):
+    print(i)
+    if i == 13:
+        break
