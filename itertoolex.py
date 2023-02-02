@@ -36,3 +36,11 @@ poop = [6, 9, 16, 19]
 accu = accumulate(poop)
 print(accu)
 print(list(accu))
+
+# by default it will take the sum, but we can also multiply
+import operator
+accub = accumulate(poop, func=operator.mul)
+print(list(accub))
+
+# accumulate
+from itertools import accumulate
