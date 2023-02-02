@@ -7,4 +7,8 @@ a = [13, 26]
 b = [6, 9]
 # we can see in results this is similar (if not the exact same) as matrix multiplication
 prod = product(a, b)
+print(prod)
 print(list(prod))
+
+prodb = product(a, b, repeat=2)
+print(list(prodb))
