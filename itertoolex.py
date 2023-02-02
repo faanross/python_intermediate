@@ -76,7 +76,16 @@ for i in count(5, 2):
         break
 
 a = [1, 3, 5]
-for i in cycle(5, 2):
+j = 0
+for i in cycle(a):
     print(i)
-    if i == 13:
+    j += 1
+    if j == 9:
+        break
+
+k = 0
+for i in repeat(a):
+    print(i)
+    k += 1
+    if k == 9:
         break
