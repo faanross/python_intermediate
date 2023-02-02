@@ -12,6 +12,7 @@ print(list(prod))
 
 prodb = product(a, b, repeat=2)
 print(list(prodb))
+print()
 
 # permutation return all possible orderings of an input
 from itertools import permutations
