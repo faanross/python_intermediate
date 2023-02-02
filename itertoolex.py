@@ -58,7 +58,8 @@ legrup = groupby(xx,key=smaller_than_four)
 for key, value in legrup:
     print(key, list(value))
 
-    # do the same but using the lambda function
+print()
+# do the same but using the lambda function
 
 xx = [1, 2, 3, 4, 5, 6, 10, 13]
 legrupb = groupby(xx,key=lambda x:x<4)
