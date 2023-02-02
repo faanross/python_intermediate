@@ -74,3 +74,9 @@ for i in count(5, 2):
     print(i)
     if i == 13:
         break
+
+a = [1, 3, 5]
+for i in cycle(5, 2):
+    print(i)
+    if i == 13:
+        break
