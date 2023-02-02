@@ -52,9 +52,16 @@ from itertools import groupby
 def smaller_than_four(x):
    return x < 4
 
-
 xx = [1, 2, 3, 4, 5, 6, 10, 13]
 legrup = groupby(xx,key=smaller_than_four)
 
 for key, value in legrup:
+    print(key, list(value))
+
+    # do the same but using the lambda function
+
+xx = [1, 2, 3, 4, 5, 6, 10, 13]
+legrupb = groupby(xx,key=lambda x:x<4)
+
+for key, value in legrupb:
     print(key, list(value))
