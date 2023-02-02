@@ -32,3 +32,7 @@ print(list(bbcomb))
 
 # accumulate
 from itertools import accumulate
+poop = [6, 9, 16, 19]
+accu = accumulate(poop)
+print(accu)
+print(list(accu))
