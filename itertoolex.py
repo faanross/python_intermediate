@@ -19,3 +19,12 @@ from itertools import permutations
 c = ['lama', 'liger', 'lawfanwduh']
 perma = permutations(c)
 print(list(perma))
+
+permab = permutations(c, 2)
+print(list(permab))
+
+# combinations makes all combinations of a specified length
+from itertools import combinations
+boob = [12, 11, 8, 6]
+bbcomb = combinations(boob, 2)
+print(list(bbcomb))
