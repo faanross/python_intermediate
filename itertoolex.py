@@ -42,5 +42,19 @@ import operator
 accub = accumulate(poop, func=operator.mul)
 print(list(accub))
 
-# accumulate
-from itertools import accumulate
+dog = [13, 5, 6, 16, 18, 11, 50]
+accuc = accumulate(dog, func=max)
+print(list(accuc))
+
+# groupby is an iterator that returns keys and groups from an iterable
+from itertools import groupby
+
+def smaller_than_four(x):
+   return x < 4
+
+
+xx = [1, 2, 3, 4, 5, 6, 10, 13]
+legrup = groupby(xx,key=smaller_than_four)
+
+for key, value in legrup:
+    print(key, list(value))
