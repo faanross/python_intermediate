@@ -28,3 +28,7 @@ from itertools import combinations
 boob = [12, 11, 8, 6]
 bbcomb = combinations(boob, 2)
 print(list(bbcomb))
+
+
+# accumulate
+from itertools import accumulate
