@@ -43,3 +43,11 @@ print(list(b))
 # another way we can do this with list comprehension
 c = [x*x for x in a]
 print(c)
+
+# filter() also gets a function and a sequence, function is true/false and returns all values according to that criteria
+# here returns all values in list smaller than 10
+d = [1, 4, 16, 44, 19, 10, 9, 8, 4, 12]
+e = filter(lambda x: x < 10, d)
+print(list(e))
+
+
