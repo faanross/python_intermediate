@@ -36,3 +36,10 @@ print(sorted(list_b, key = lambda x: x[1]))
 print(sorted(list_b, key = lambda x: x[0] +  x[1]))
 
 # map(function, sequence)
+a = [1, 2, 3, 4, 5]
+b = map(lambda x: x * x, a)
+print(list(b))
+
+# another way we can do this with list comprehension
+c = [x*x for x in a]
+print(c)
