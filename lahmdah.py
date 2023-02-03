@@ -11,3 +11,8 @@ def addsten(x):
     return x + 10
 
 print(addsten(5))
+
+# lambda is just used for convenience whenever there is a function with 1 line only = use lambda
+
+power_of =  lambda a, b: a**b
+print(power_of(2, 8))
