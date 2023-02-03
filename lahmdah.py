@@ -28,3 +28,11 @@ list_b = [(3, 4), (1, 6), (11, 1), (12, 9), (1, 7)]
 
 # if we simply use sorted() then by default it will use x (first entry in each tuple)
 print(sorted(list_b))
+
+# if we want to change this, let's say sort by 2nd element, we can use lambda here
+print(sorted(list_b, key = lambda x: x[1]))
+
+# let's sort them according to sum of each
+print(sorted(list_b, key = lambda x: x[0] +  x[1]))
+
+# map(function, sequence)
