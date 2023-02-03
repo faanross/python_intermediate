@@ -16,3 +16,15 @@ print(addsten(5))
 
 power_of =  lambda a, b: a**b
 print(power_of(2, 8))
+
+# we also often use lambda when we need to use multiple functions
+
+# let's look at sorted() function
+list_a = [13, 44, 4, 3, 1, 55, 67, 23]
+print(sorted(list_a))
+
+# now imagine we have 2D - list of tuples
+list_b = [(3, 4), (1, 6), (11, 1), (12, 9), (1, 7)]
+
+# if we simply use sorted() then by default it will use x (first entry in each tuple)
+print(sorted(list_b))
