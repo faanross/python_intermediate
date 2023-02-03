@@ -1,2 +1,2 @@
-# lambda arguments = expressions
+# lambda arguments: expression
 # small, one-line, anonymous function 
