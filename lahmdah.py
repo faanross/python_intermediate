@@ -50,4 +50,7 @@ d = [1, 4, 16, 44, 19, 10, 9, 8, 4, 12]
 e = filter(lambda x: x < 10, d)
 print(list(e))
 
-
+# reduce also takes a function and a sequence, it repeatedly applies the function to the elements and returns a single value
+from functools import reduce
+prod_d = reduce(lambda x, y: x*y, a)
+print(prod_d)
