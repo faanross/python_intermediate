@@ -21,5 +21,6 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(leve
 
 # we can also create our own modules 
 logger = logging.getLogger(__name__)
+logger.propagate = False
 # now we can actually log something
 logger.info('Hello, this is being logged')
