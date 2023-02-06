@@ -21,6 +21,14 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(leve
 
 # we can also create our own modules 
 logger = logging.getLogger(__name__)
-logger.propagate = False
+logger.propagate = False 
 # now we can actually log something
 logger.info('Hello, this is being logged')
+
+# create handler
+stream_h = logging.StreamHandler()
+file_h = logging.FileHandler('file.log')
+
+# level and format
+stream_h.setLevel(logging.WARNING)
+file_h.setLevel(logging.ERROR)
