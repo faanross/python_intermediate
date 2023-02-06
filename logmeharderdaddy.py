@@ -9,8 +9,9 @@ import logging
 # logging.critical('This is a critical message')
 
 # If we were to run these: only the last 3 will output to console
-#logging.debug('This is a debug message')
+logging.debug('This is a debug message')
 logging.info('This is an info message')
 logging.warning('This is a warning message')
 logging.error('This is an error message')
 logging.critical('This is a critical message')
+
