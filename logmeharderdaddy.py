@@ -18,3 +18,8 @@ logging.critical('This is a critical message')
 # we can change basic settings of logging with basicConfig
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s  - %(message)s', datefmt='%m/%d/%Y %H:%M:%S')
+
+# we can also create our own modules 
+logger = logging.getLogger(__name__)
+# now we can actually log something
+logger.info('Hello, this is being logged')
