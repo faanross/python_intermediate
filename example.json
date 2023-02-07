@@ -1,0 +1,18 @@
+{
+    "firstName": "Napoleon",
+    "lastName": "Dynamite",
+    "hobbies": ["dancing", "cow expertise", "numchuck skills"],
+    "age": 17,
+    "hasaLlama": true,
+    "friends": [
+        {
+            "firstName": "Pedro",
+            "age": 18
+        },
+        {
+            "firstName": "Deb",
+            "age": 16
+        }
+    ]
+
+}
