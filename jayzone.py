@@ -16,3 +16,9 @@ print(napoleonJSON)
 # now we can see it creates JSON output
 with open('napoleon.json', 'w') as file:
     json.dump(napoleon, file, indent=4)
+
+# now assume we want to do the inverse
+# we want to convert json and assign to a new dictionary
+
+new_example = json.loads(napoleonJSON)
+print(new_example)
