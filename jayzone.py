@@ -9,3 +9,6 @@ napoleon = {
     "sequence": [1, 2, 3],
     "girslike": {"skills": "computer_hacking"}
 }
+
+napoleonJSON = json.dumps(napoleon)
+print(napoleonJSON)
