@@ -10,5 +10,9 @@ napoleon = {
     "girslike": {"skills": "computer_hacking"}
 }
 
-napoleonJSON = json.dumps(napoleon)
+napoleonJSON = json.dumps(napoleon, indent=2)
 print(napoleonJSON)
+
+# now we can see it creates JSON output
+with open('napoleon.json', 'w') as file:
+    json.dump(napoleon, file, indent=4)
