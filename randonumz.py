@@ -49,3 +49,6 @@ print(random.randint(1, 69))
 random.seed(3)
 print(random.random())
 print(random.randint(1, 69))
+
+# let's explore the secrets module
+import secrets
