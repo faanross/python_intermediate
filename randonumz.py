@@ -52,3 +52,6 @@ print(random.randint(1, 69))
 
 # let's explore the secrets module
 import secrets
+
+h = secrets.randbelow(100)
+print(h)
