@@ -26,3 +26,13 @@ print(e)
 # choose mulitple from list - can reuse same element multiple times
 f = random.choices(mylist, k=5)
 print(f)
+
+# shuffle list
+random.shuffle(mylist)
+print(mylist)
+
+# all above was pseudo-randomness
+
+random.seed(1)
+
+
