@@ -18,3 +18,7 @@ print(mylist)
 
 d = random.choice(mylist)
 print(d)
+
+# choose mulitple from list
+e = random.sample(mylist, 5)
+print(e)
