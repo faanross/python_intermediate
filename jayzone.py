@@ -36,4 +36,11 @@ class User:
 
 user = User('Max', 27)
 
+# but to achieve this we actually need to create a short custom encoding function
+
+def encoder_suer(o):
+    if isinstance(o, User):
+        return {'name': o.name, 'age'}
+
+
 userJSON = json.dumps(user)
