@@ -66,5 +66,5 @@ import numpy as np
 k = np.random.rand(3) # 3 refers to dimensions
 print(k)
 
-j = np.random.randint(0, 10, 3, 3) # 3 x 3 array with ints between 0 and 10
+j = np.random.randint(0, 10, (3, 3)) # 3 x 3 array with ints between 0 and 10
 print(j)
