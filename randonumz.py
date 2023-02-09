@@ -61,5 +61,6 @@ i = secrets.randbits(8)
 print(i)
 
 # for arrays we use the numpy module
-import numpy
+import numpy as np
+
 
