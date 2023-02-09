@@ -24,4 +24,4 @@ new_example = json.loads(napoleonJSON)
 print(new_example)
 
 with open('example.json', 'r') as file:
-    
+    unexample = json.load(file)
