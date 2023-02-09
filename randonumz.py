@@ -32,9 +32,12 @@ random.shuffle(mylist)
 print(mylist)
 
 # all above was pseudo-randomness
+# these will randomly choose first time but then value stays
+# even if you rerun, value does not change after first run
+# to rerun you have to reseed
 
 random.seed(1)
-
 print(random.random())
+print(random.randint(1, 69))
 
 
