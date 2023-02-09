@@ -25,3 +25,4 @@ print(new_example)
 
 with open('example.json', 'r') as file:
     unexample = json.load(file)
+    print(unexample)
