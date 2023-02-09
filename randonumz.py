@@ -66,5 +66,16 @@ import numpy as np
 k = np.random.rand(3) # 3 refers to dimensions
 print(k)
 
-j = np.random.randint(0, 10, (3, 3)) # 3 x 3 array with ints between 0 and 10
+j = np.random.randint(10, 50, (3, 3)) # 3 x 3 array with ints between 10 and 50
 print(j)
+
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(arr)
+
+# this shuffles each of 3 rows only in y-dim
+np.random.shuffle(arr)
+print(arr)
+
+# using seed function
+np.random.seed(1)
+print(np.random.rand(3,3))
