@@ -55,3 +55,7 @@ import secrets
 
 h = secrets.randbelow(100)
 print(h)
+ 
+# this is giving it a max capacity of 8 bits ie 11111111, ie 256 
+i = secrets.randbits(8)
+print(i)
