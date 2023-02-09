@@ -63,4 +63,6 @@ print(i)
 # for arrays we use the numpy module
 import numpy as np
 
+k = np.random.rand(3) # 3 refers to dimensions
+print(k)
 
