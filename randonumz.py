@@ -35,9 +35,17 @@ print(mylist)
 # these will randomly choose first time but then value stays
 # even if you rerun, value does not change after first run
 # to rerun you have to reseed
+# think of seed value as "set id"
+# Obvs because these numbers stay the same don't use them for security purposes!
 
 random.seed(1)
 print(random.random())
 print(random.randint(1, 69))
 
+random.seed(2)
+print(random.random())
+print(random.randint(1, 69))
 
+random.seed(3)
+print(random.random())
+print(random.randint(1, 69))
