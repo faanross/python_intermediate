@@ -40,7 +40,8 @@ user = User('Max', 27)
 
 def encoder_suer(o):
     if isinstance(o, User):
-        return {'name': o.name, 'age'}
+        return {'name': o.name, 'age': o.age, o.__class__.__name__: True}
+        
 
 
 userJSON = json.dumps(user)
