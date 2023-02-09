@@ -8,6 +8,10 @@ print(a)
 b = random.randint(10, 100)
 print(b)
 
-# variate using mu and sigma
-c = random.normalvariate()
+# variate using mu (mean) and sigma (std.deviation)
+c = random.normalvariate(0, 1)
 print(c)
+
+#randomly draw from a list
+mylist = list("ABCDEFGHIJKLMONPQRSTUVWXYZ")
+print(mylist)
