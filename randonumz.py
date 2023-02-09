@@ -19,6 +19,10 @@ print(mylist)
 d = random.choice(mylist)
 print(d)
 
-# choose mulitple from list
+# choose mulitple from list - unique
 e = random.sample(mylist, 5)
 print(e)
+
+# choose mulitple from list - can reuse same element multiple times
+f = random.choices(mylist, k=5)
+print(f)
