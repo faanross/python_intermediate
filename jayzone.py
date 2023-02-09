@@ -38,11 +38,11 @@ user = User('Max', 27)
 
 # but to achieve this we actually need to create a short custom encoding function
 
-def encoder_suer(o):
+def encoder_user(o):
     if isinstance(o, User):
         return {'name': o.name, 'age': o.age, o.__class__.__name__: True}
     else:
         raise TypeError('Object of type User is not JSON serializable')
 
 
-userJSON = json.dumps(user)
+userJSON = json.dumps(user, default=encoder_user)
