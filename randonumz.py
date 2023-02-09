@@ -15,3 +15,6 @@ print(c)
 #randomly draw from a list
 mylist = list("ABCDEFGHIJKLMONPQRSTUVWXYZ")
 print(mylist)
+
+d = random.choice(mylist)
+print(d)
