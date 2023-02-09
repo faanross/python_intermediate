@@ -35,3 +35,5 @@ class User:
         self.age = age
 
 user = User('Max', 27)
+
+userJSON = json.dumps(user)
