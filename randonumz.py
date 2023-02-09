@@ -59,3 +59,7 @@ print(h)
 # this is giving it a max capacity of 8 bits ie 11111111, ie 256 
 i = secrets.randbits(8)
 print(i)
+
+# for arrays we use the numpy module
+import numpy
+
