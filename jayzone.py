@@ -46,3 +46,4 @@ def encoder_user(o):
 
 
 userJSON = json.dumps(user, default=encoder_user)
+print(userJSON)
