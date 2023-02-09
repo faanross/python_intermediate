@@ -26,3 +26,12 @@ print(new_example)
 with open('example.json', 'r') as file:
     unexample = json.load(file)
     print(unexample)
+
+# create a OOP class and convert to JSON 
+class User:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+user = User('Max', 27)
