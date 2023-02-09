@@ -22,3 +22,5 @@ with open('napoleon.json', 'w') as file:
 
 new_example = json.loads(napoleonJSON)
 print(new_example)
+
+with open('example.json', 'r')
