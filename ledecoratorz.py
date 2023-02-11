@@ -7,3 +7,14 @@
 # @mydecorator
 # def dosummin():
 #    pass
+
+def start_end_decorator(func):
+    def wrapper():
+        
+
+def print_name(x):
+    print("Hello, "+x)
+
+thename = input("What's your name? ")
+print_name(thename)
+
