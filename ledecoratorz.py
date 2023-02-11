@@ -11,13 +11,13 @@
 def start_end_decorator(func):
     def wrapper(*args, **kwargs):
         print("There you are!")
-        func()
+        func(*args, **kwargs)
         print("Enjoy your day!")
     return wrapper
 
 @start_end_decorator
 def print_name(x):
-    print("Hello, "+x)
+    return print("Hello, "+x)
 
 thename = input("What's your name? ")
 
