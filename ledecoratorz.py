@@ -10,8 +10,11 @@
 
 def start_end_decorator(func):
     def wrapper():
-        
+        print("There you are!")
+        func()
+        print("Enjoy your day!")
 
+@start_end_decorator
 def print_name(x):
     print("Hello, "+x)
 
