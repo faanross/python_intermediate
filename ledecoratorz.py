@@ -13,6 +13,7 @@ def start_end_decorator(func):
         print("There you are!")
         func()
         print("Enjoy your day!")
+    return wrapper
 
 @start_end_decorator
 def print_name(x):
