@@ -9,15 +9,17 @@
 #    pass
 
 def start_end_decorator(func):
-    def wrapper():
+    def wrapper(*args, **kwargs):
         print("There you are!")
         func()
         print("Enjoy your day!")
     return wrapper
 
 @start_end_decorator
-def print_name():
-    print("Hello Faan")
+def print_name(x):
+    print("Hello, "+x)
 
-print_name()
+thename = input("What's your name? ")
+
+print_name(thename)
 
