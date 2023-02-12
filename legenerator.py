@@ -22,3 +22,6 @@ value = next(g)
 print(value)
 
 # now if we were to use next() again it would yield an error
+
+h = mygenerator()
+print(sum(h))
