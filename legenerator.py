@@ -9,5 +9,11 @@ def mygenerator():
 g = mygenerator()
 print(g)
 
-for i in g:
-    print(i)
+# for i in g:
+#     print(i)
+
+value = next(g)
+print(value)
+
+value = next(g)
+print(value)
