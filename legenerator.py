@@ -8,3 +8,6 @@ def mygenerator():
 
 g = mygenerator()
 print(g)
+
+for i in g:
+    print(i)
