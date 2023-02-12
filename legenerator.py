@@ -6,6 +6,13 @@ def mygenerator():
     yield 2
     yield 3
 
+def mygenerator2():
+    yield 11
+    yield 2
+    yield 6
+    yield 23
+
+
 g = mygenerator()
 print(g)
 
@@ -25,3 +32,6 @@ print(value)
 
 h = mygenerator()
 print(sum(h))
+
+k = mygenerator2()
+print(sorted(k))
