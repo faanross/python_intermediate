@@ -12,6 +12,13 @@ def mygenerator2():
     yield 6
     yield 23
 
+def countdown(num):
+    print('Starting')
+    while num > 0:
+        yield num
+        num -= 1
+
+
 
 g = mygenerator()
 print(g)
