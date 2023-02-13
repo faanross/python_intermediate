@@ -47,4 +47,12 @@ cd = countdown(10)
 for i in cd:
     print(i)
 
-    #
+# generators save a lot of memory when we work with large data sets
+
+def firstn(n):
+    nums = []
+    num = 0
+    while num < n:
+        nums.append(num)
+        num += 1
+    return nums
