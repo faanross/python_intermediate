@@ -59,3 +59,4 @@ def firstn(n):
 
 mylist = firstn(10)
 print(mylist)
+print(sum(mylist))
