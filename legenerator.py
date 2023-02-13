@@ -58,13 +58,20 @@ def firstn(n):
         num += 1
     return nums
 
+mylist = firstn(10)
+print(mylist)
+print(sum(mylist))
+
 # here we will create the same functional outcome, but with generator
 def firstn_generator(n):
     num2 = 0
     while num2 < n:
-        
+        yield num2
+        num2 += 1
+
+mylist2 = firstn_generator(10)
+mylist3 = firstn_generator(10)
+print(sum(mylist2))
+print(list(mylist3))
 
 
-mylist = firstn(10)
-print(mylist)
-print(sum(mylist))
