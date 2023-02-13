@@ -48,6 +48,7 @@ for i in cd:
     print(i)
 
 # generators save a lot of memory when we work with large data sets
+# to illustrate this look at this regular function, it will generate data set and store in list nums
 
 def firstn(n):
     nums = []
@@ -56,6 +57,9 @@ def firstn(n):
         nums.append(num)
         num += 1
     return nums
+
+# here we will create the same functional outcome, but with generator
+
 
 mylist = firstn(10)
 print(mylist)
