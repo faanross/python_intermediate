@@ -81,4 +81,4 @@ import sys
 print(sys.getsizeof(mylist))
 print(sys.getsizeof(mylist4))
 
-
+# we can see top one uses 80% more memory
