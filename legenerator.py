@@ -56,3 +56,6 @@ def firstn(n):
         nums.append(num)
         num += 1
     return nums
+
+mylist = firstn(10)
+print(mylist)
