@@ -59,6 +59,10 @@ def firstn(n):
     return nums
 
 # here we will create the same functional outcome, but with generator
+def firstn_generator(n):
+    num2 = 0
+    while num2 < n:
+        
 
 
 mylist = firstn(10)
