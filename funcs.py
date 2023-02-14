@@ -38,3 +38,6 @@ print(last)
 
 tuple1 = (1, 2, 3)
 list1 = [4, 5, 6]
+
+new_list = [*tuple1, *list1]
+print(new_list)
