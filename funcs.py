@@ -16,4 +16,8 @@ print(doityeah)
 # *args and **kwargs
 
 def foo(a, b, *args, **kwargs):
-    print()
+    print(a)
+    for arg in args:
+        print(arg)
+    for key in kwargs:
+        
