@@ -13,3 +13,7 @@ print(zeros)
 print(letuple)
 print(doityeah)
 
+# *args and **kwargs
+
+def foo(a, b, *args, **kwargs):
+    print()
