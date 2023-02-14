@@ -6,5 +6,10 @@ print(2**8)
 
 # creat lists, tuples, or strings with repeated elements
 zeros = [0] * 10
+letuple = (6, 9) * 5
+doityeah = "ABC" * 6
+
+print(zeros)
+print(zeros)
 print(zeros)
 
