@@ -35,3 +35,6 @@ beginning, *middle, last = number
 print(beginning)
 print(middle)
 print(last)
+
+tuple1 = (1, 2, 3)
+list1 = [4, 5, 6]
