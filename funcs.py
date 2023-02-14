@@ -31,6 +31,7 @@ my_list = [6, 8, 9]
 bar(*my_list)
 
 number = [1, 2, 3, 4, 5, 6]
-*beginning, last = number
+beginning, *middle, last = number
 print(beginning)
+print(middle)
 print(last)
