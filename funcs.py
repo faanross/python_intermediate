@@ -10,6 +10,6 @@ letuple = (6, 9) * 5
 doityeah = "ABC" * 6
 
 print(zeros)
-print(zeros)
-print(zeros)
+print(letuple)
+print(doityeah)
 
