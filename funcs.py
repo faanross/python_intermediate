@@ -16,10 +16,16 @@ print(doityeah)
 # *args and **kwargs
 
 def foo(a, b, *args, **kwargs):
-    print(a)
+    print(a, b)
     for arg in args:
         print(arg)
     for key in kwargs:
         print(key, kwargs[key])
 
 foo(1, 2, 3, 4, 5, "poop", "tweak")
+
+def bar(a, b, c):
+    print(a, b, c)
+
+my_list = [6, 8, 9]
+bar(*my_list)
