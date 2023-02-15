@@ -57,3 +57,7 @@ nest_cpy2[0][1] = 1000
 print(nest_cpy2)
 print(nest_lis2)
 # now we can see it only changed original and copy was unaffected 
+
+# we can apply the same technique to objects
+class Person:
+    def __init__(self, name)
