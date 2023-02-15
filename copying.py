@@ -60,4 +60,16 @@ print(nest_lis2)
 
 # we can apply the same technique to objects
 class Person:
-    def __init__(self, name)
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+p1 = Person('Alex', 27)
+
+p2 = copy.deepcopy(p1)
+
+p2.age = 69
+
+print(p2.age)
+print(p1.age)
+        
