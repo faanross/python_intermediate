@@ -40,3 +40,10 @@ print(org_list2)
 
 # now imagine we have a nested list
 nest_list = [[3, 6, 9], [4, 8, 12], [5, 10, 15]] 
+
+# first assume we just make a shallow copy
+nest_cpy = copy.copy(nest_list)
+nest_cpy[0][1] = 13
+
+print(nest_cpy)
+print(nest_list)
