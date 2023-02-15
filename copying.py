@@ -47,3 +47,7 @@ nest_cpy[0][1] = 13
 
 print(nest_cpy)
 print(nest_list)
+# we can see that again it changed both - not what we wanted
+# so for 2 or more dimensions we need to use deep copy
+
+nest_lis2 = [[10, 20, 30], [11, 22, 33], [12, 21, 121]] 
