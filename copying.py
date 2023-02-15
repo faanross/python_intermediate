@@ -51,3 +51,9 @@ print(nest_list)
 # so for 2 or more dimensions we need to use deep copy
 
 nest_lis2 = [[10, 20, 30], [11, 22, 33], [12, 21, 121]] 
+nest_cpy2 = copy.deepcopy(nest_lis2)
+nest_cpy2[0][1] = 1000
+
+print(nest_cpy2)
+print(nest_lis2)
+# now we can see it only changed original and copy was unaffected 
