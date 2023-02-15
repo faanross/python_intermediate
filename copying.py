@@ -36,4 +36,6 @@ cpy_list2[0] = 10101
 
 print(cpy_list2)
 print(org_list2)
+# thus we can see here original list did not change
+
 
