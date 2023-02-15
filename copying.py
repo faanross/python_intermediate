@@ -34,6 +34,6 @@ org_list2 = [6, 66, 69, 13, 26]
 cpy_list2 = copy.copy(org_list2)
 cpy_list2[0] = 10101
 
-print(cpy_list)
-print(org_list)
+print(cpy_list2)
+print(org_list2)
 
