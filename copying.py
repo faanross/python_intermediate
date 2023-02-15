@@ -38,4 +38,5 @@ print(cpy_list2)
 print(org_list2)
 # thus we can see here original list did not change
 
-
+# now imagine we have a nested list
+nest_list = [[3, 6, 9], [4, 8, 12], [5, 10, 15]] 
