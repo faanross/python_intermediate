@@ -24,5 +24,14 @@ print(org_list)
 # thus when we print we can see that BOTH were changed.
 # thus we want to be able to make a new, independent copy
 
+# shallow copy: 1 level deep
+# deep copy: full and independent copy
+
+import copy
+org_list2 = [6, 66, 69, 13, 26]
+
+# shallow copy
+cpy_list2 = copy.copy(org_list2)
+
 
 
