@@ -20,6 +20,10 @@ lock.acquire()
 #...And then we always have to call lock.release...#
 lock.release()
 
+# here is a more pythonic manner of achieving the same thing:
+with lock:
+    #...Do something...#
+    
 
 
 
