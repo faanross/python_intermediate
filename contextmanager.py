@@ -25,3 +25,11 @@ lock.release()
     #...Do something...#
 
 
+################################################################
+# How we might implement a context manager for our own classes #
+################################################################
+
+class ManagedFile:
+    def __init__(self, filename):
+        self.filename = filename
+
