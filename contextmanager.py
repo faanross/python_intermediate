@@ -1,7 +1,7 @@
 # Here we simply create 
-with open('notes.txt', 'w') as file:
-    user_text = input("What would you like to write? ")
-    file.write(user_text)
+# with open('notes.txt', 'w') as file:
+#     user_text = input("What would you like to write? ")
+#     file.write(user_text)
 
 
 file = open('notes.txt', 'w')
@@ -40,10 +40,17 @@ class ManagedFile:
     def __exit__(self, exc_type, exc_value, exc_traceback):
         if self.file:
             self.file.close()
+        print('exc:', exc_type, exc_value)
         print('exit')
 
 # Now we can use this class as a context manager
 
+with ManagedFile('notes.txt') as file:
+    print('Yes, ho$$-ho$$.')
+    file.write('NUMB-CHUX.')
+
+# handling exceptions
+print('continuing here... ')
 
 
 
