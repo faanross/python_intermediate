@@ -2,3 +2,8 @@
 with open('notes.txt', 'w') as file:
     user_text = input("What would you like to write? ")
     file.write(user_text)
+
+file = open('notes.txt', 'w')
+try:
+    file.write('something else too...')
+finally: 
