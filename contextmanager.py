@@ -11,4 +11,15 @@ finally:
     file.close()
 # finally will execute with or without an exception vs try that is dependent
 
-# example of using a log (multi-threading)
+# example of using a lock (multi-threading)
+from threading import Lock
+lock = Lock()
+
+lock.acquire()
+#...We can do something safely - it is thread safe...#
+#...And then we always have to call lock.release...#
+lock.release()
+
+
+
+
