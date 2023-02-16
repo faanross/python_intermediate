@@ -9,5 +9,6 @@ try:
     file.write('something else too...')
 finally: 
     file.close()
-
 # finally will execute with or without an exception vs try that is dependent
+
+# example of using a log (multi-threading)
