@@ -33,3 +33,14 @@ class ManagedFile:
     def __init__(self, filename):
         self.filename = filename
 
+    def __enter__(self):
+        print('enter')
+        self.file = open(self.filename, 'w')
+
+    def __exit__(self, exc_type, exc_value, exc_traceback):
+        if self.file:
+            self.file.close()
+
+            
+
+
