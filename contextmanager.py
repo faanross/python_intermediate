@@ -1,3 +1,4 @@
+# Here we simply create 
 with open('notes.txt', 'w') as file:
-    file.write("Summin-nummin'-schlurrrp-a-durp")
-    
+    user_text = input("What would you like to write? ")
+    file.write(user_text)
