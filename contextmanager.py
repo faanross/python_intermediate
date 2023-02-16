@@ -40,7 +40,10 @@ class ManagedFile:
     def __exit__(self, exc_type, exc_value, exc_traceback):
         if self.file:
             self.file.close()
+        print('exit')
 
-            
+# Now we can use this class as a context manager
+
+
 
 
