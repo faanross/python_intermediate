@@ -76,6 +76,6 @@ print(arr)
 np.random.shuffle(arr)
 print(arr)
 
-# using seed function
+# using seed function - works as before ("set id ")
 np.random.seed(1)
 print(np.random.rand(3,3))

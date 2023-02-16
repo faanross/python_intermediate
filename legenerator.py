@@ -81,4 +81,5 @@ import sys
 print(sys.getsizeof(firstn(1000000)))
 print(sys.getsizeof(firstn_generator(1000000)))
 
+# top one uses 80,000x times more memory
 
